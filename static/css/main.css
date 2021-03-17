@@ -5,7 +5,7 @@ body {
   font-size: 18px;
   color: #404040;
   position: relative;
-  background: #FFF;
+  background: #F2F2F2;
   display: flex;
   flex-flow: column;
   height: 100vh;
@@ -83,9 +83,11 @@ div.panel-body a.list-group-item {
   border-radius: 0;
   border: none;
   font-size: 16px;
+  background-color: #F2F2F2;
 }
 div.panel-group .panel {
-    border-radius: 0;
+  border-radius: 0;
+  background-color: #E0E0E0;  
 }
 div.panel-group .panel+.panel {
     margin-top: 0;
@@ -137,8 +139,8 @@ img {
 /* --- Navbar --- */
 
 .navbar-custom {
-  background: #F5F5F5;
-  border-bottom: 1px solid #EAEAEA;
+  background: #E0E0E0;
+  border-bottom: 1px solid #DADADA;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
@@ -262,7 +264,7 @@ img {
   display: block;
   padding: 10px;
   padding-left: 30px;
-  background: #f5f5f5;
+  background: #E0E0E0;
   text-decoration: none !important;
   border-width: 0 1px 1px 1px;
   font-weight: normal;
@@ -299,8 +301,8 @@ img {
 
 footer {
   padding: 30px 0;
-  background: #F5F5F5;
-  border-top: 1px #EAEAEA solid;
+  background: #E0E0E0;
+  border-top: 1px #DADADA solid;
   margin-top: auto;
   font-size: 14px;
 }
@@ -682,7 +684,7 @@ table {
 }
 table tr {
   border-top: 1px solid #cccccc;
-  background-color: #ffffff;
+  background-color: #F2F2F2;
   margin: 0;
   padding: 0;
 }
